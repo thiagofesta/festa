@@ -4,4 +4,7 @@ node_js:
 before_script:
   - npm install grunt-cli -g
 script:
-  - ./.travis.sh
+  - cd website/folder/deep
+  - npm install
+  - npm test
+  - cd ../../../
