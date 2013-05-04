@@ -4,4 +4,4 @@ node_js:
 before_script:
   - npm install grunt-cli -g
 script:
-  - cd website/folder/deep && npm test
+  - cd website/folder/deep && npm install && npm test
