@@ -15,6 +15,6 @@
     "grunt-contrib-jasmine": "~0.4.2"
   },
   "scripts": {
-    "test": "cd website/folder/deep/ && grunt travis && ../../../"
+    "test": "cd website/folder/deep/ && grunt travis && cd ../../../"
   }  
 }
