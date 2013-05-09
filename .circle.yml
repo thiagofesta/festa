@@ -1,0 +1,16 @@
+machine:
+  node:
+    version: 0.10
+
+dependencies:
+  override:
+    - npm install grunt-cli -g
+    - cd website/folder/deep
+    - npm install
+    - cd ../../../
+
+test:
+  post:
+    - cd website/folder/deep
+    - npm test
+    - cd ../../../
