@@ -5,12 +5,8 @@ machine:
 dependencies:
   override:
     - npm install grunt-cli -g
-    - cd website/folder/deep
-    - npm install
-    - cd ../../../
+    - cd website/folder/deep && npm install && cd ../../../
 
 test:
   post:
-    - cd website/folder/deep
-    - npm test
-    - cd ../../../
+    - cd website/folder/deep && npm test && cd ../../../
